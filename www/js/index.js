@@ -15,7 +15,6 @@ var app = {
               alert('Imagen enviada al servidor');
           },
  
-     
    takePhoto: function () {
         navigator.camera.getPicture (onPhotoDataSuccess, onFail, {quality: 100, 
         	destinationType: Camera.DestinationType.DATA_URL,
