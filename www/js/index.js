@@ -15,11 +15,17 @@ var app = {
               alert('Imagen enviada al servidor');
           },
  
-          takePhoto: function(){
-              navigator.camera.getPicture(app.onPhotoDataSuccess, app.onFail, { quality: 20, 
-                  allowEdit: true, destinationType: Camera.DestinationType.DATA_URL });
-          },
- 
+     
+   takePhoto: function () {
+        navigator.camera.getPicture (onPhotoDataSuccess, onFail, {quality: 100, 
+        	destinationType: Camera.DestinationType.DATA_URL,
+        	sourceType: Camera.PictureSourceType.CAMERA,
+        mediaType: Camera.MediaType.CAMERA,
+        encodingType: Camera.EncodingType.JPEG,
+        saveToPhotoAlbum: true
+        	});
+    },
+    
           onPhotoDataSuccess: function(imageData) {
          
             var photo = document.getElementById('photo');
