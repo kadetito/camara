@@ -17,7 +17,7 @@ var app = {
  
           takePhoto: function(){
               navigator.camera.getPicture(app.onPhotoDataSuccess, app.onFail, { quality: 20, 
-                  allowEdit: true, destinationType: navigator.camera.DestinationType.DATA_URL });
+                  allowEdit: true, destinationType: Camera.DestinationType.DATA_URL });
           },
  
           onPhotoDataSuccess: function(imageData) {
