@@ -5,7 +5,7 @@
     <author email="dev@cordova.apache.org" href="http://cordova.io">Sample App</author>   
     <content src="index.html" />
     <access origin="*" />
-<plugin name="cordova-plugin-camera-preview" spec="https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview.git#e417df8">
+<plugin name="cordova-plugin-camera-preview" version="0.10.0" spec="https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview.git">
   <variable name="ANDROID_SUPPORT_LIBRARY_VERSION" value="26+" />
 </plugin>
 
