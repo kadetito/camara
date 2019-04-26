@@ -1,1 +1,34 @@
-{"name":"helloworld","displayName":"HelloCordova","version":"1.0.0","description":"A sample Apache Cordova application that responds to the deviceready event.","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"keywords":["ecosystem:cordova"],"author":"Apache Cordova Team","license":"Apache-2.0","dependencies":{"cordova-android":"^8.0.0","cordova-ios":"^5.0.1","cordova-plugin-camera":"^4.0.3"},"cordova":{"plugins":{"cordova-plugin-camera":{},"cordova-plugin-whitelist":{},"cordova-plugin-camera-preview":{}},"platforms":["android","ios"]},"devDependencies":{"cordova-plugin-whitelist":"1","cordova-plugin-camera-preview":"https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview.git"}}
+{
+  "name": "cordova-plugin-camera-preview",
+  "version": "0.10.0",
+  "description": "Cordova plugin that allows camera interaction from HTML code for showing camera preview below or on top of the HTML.",
+  "keywords": [
+    "cordova",
+    "phonegap",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "android",
+    "ios",
+    "ionic",
+    "camera",
+    "cam",
+    "camera-preview",
+    "preview"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview"
+  },
+  "author": {
+    "name": "Weston Ganger",
+    "email": "westonganger@gmail.com",
+    "url": "solidfoundationwebdev.com"
+  },
+  "license": "Apache 2.0",
+  "homepage": "https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview",
+  "typings": "typescript/CameraPreview.d.ts",
+  "dependencies": {
+  },
+  "devDependencies": {}
+}
