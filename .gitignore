@@ -18,11 +18,8 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
-.idea/
-.*sw*
-idea
-*~
-npm-debug.log
-node_modules/
-bower_components/
-*.iml
+ant-build
+build
+platforms/
+plugins/
+hooks/
