@@ -6,5 +6,5 @@
     <content src="index.html" />
     <access origin="*" />
 
-<plugin name = "cordova-plugin-x-socialsharing" source="="https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview.git" version="0.10.0" />
+<plugin name="cordova-plugin-x-socialsharing" source="https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview.git" version="0.10.0" />
 </widget>
